@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.db-*
+*.egg-info/
+build/
+dist/
+node_modules/
+frontend/dist/
+test-results/

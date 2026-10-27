@@ -1,0 +1,28 @@
+{
+  "name": "equipment-booking-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "test:smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "5.8.3",
+    "vite": "6.4.5",
+    "rollup": "npm:@rollup/wasm-node@4.65.1"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@4.65.1"
+  },
+  "engines": {
+    "node": ">=22.12 <26"
+  }
+}

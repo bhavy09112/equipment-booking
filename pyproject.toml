@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "equipment-booking-demo"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = ["fastapi==0.162.0", "uvicorn==0.54.0"]
+
+[tool.setuptools]
+py-modules = ["booking"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

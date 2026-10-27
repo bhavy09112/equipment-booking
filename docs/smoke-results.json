@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "browse and reserve through real UI; lost-response retry creates one row",
+    "conflict message and demo ownership",
+    "cancel and reserve refreshed availability",
+    "actual server process restart persistence",
+    "desktop/mobile captures and no mobile horizontal overflow",
+    "10 rounds × 12 concurrent HTTP requests: 10 creates / 110 conflicts",
+    "no browser runtime errors"
+  ],
+  "race": {
+    "rounds": 10,
+    "concurrentRequests": 12,
+    "created": 10,
+    "conflicts": 110,
+    "elapsedMs": 2827
+  },
+  "node": "v25.5.0",
+  "platform": "win32",
+  "browser": "156.0.4314.42"
+}
